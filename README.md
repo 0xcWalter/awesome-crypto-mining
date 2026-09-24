@@ -177,6 +177,7 @@ Run your own infrastructure instead of trusting someone else's.
 ### Solo Mining Pools
 
 - **[2Miners Solo](https://2miners.com/)** — Isolated solo tiers alongside its PPLNS pools, including [Ravencoin](https://2miners.com/solo-rvn-mining-pool), [Ergo](https://2miners.com/solo-erg-mining-pool), [Kaspa](https://2miners.com/solo-kas-mining-pool) and [Ethereum Classic](https://2miners.com/solo-etc-mining-pool).
+- **[BTC PoW Lab](https://btcpowlab-pool.com/)** — Bitcoin Hybrid Solo pool with public Stratum V1, address based access, public status and proof pages, and a transparent 85% finder, 10% eligible community and 5% operator reward split.
 - **[CKPool Solo](https://solo.ckpool.org/)** — The original zero-dependency Bitcoin solo pool; 2% fee, paid only on a found block.
 - **[OCEAN](https://ocean.xyz/)** — Non-custodial Bitcoin pool paying directly from the coinbase, with [DATUM](https://www.ocean.xyz/docs/datum) for miner-side template construction.
 - **[SoloPool.org](https://solopool.org/)** — Solo stratum endpoints for 40+ altcoins with global low-latency nodes.
