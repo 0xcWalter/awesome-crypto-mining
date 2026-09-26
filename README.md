@@ -180,6 +180,7 @@ Run your own infrastructure instead of trusting someone else's.
 - **[BTC PoW Lab](https://btcpowlab-pool.com/)** — Bitcoin Hybrid Solo pool with public Stratum V1, address based access, public status and proof pages, and a transparent 85% finder, 10% eligible community and 5% operator reward split.
 - **[CKPool Solo](https://solo.ckpool.org/)** — The original zero-dependency Bitcoin solo pool; 2% fee, paid only on a found block.
 - **[OCEAN](https://ocean.xyz/)** — Non-custodial Bitcoin pool paying directly from the coinbase, with [DATUM](https://www.ocean.xyz/docs/datum) for miner-side template construction.
+- **[SoloLuck](https://sololuck.io/)** — Bitcoin solo pool on ckpool with a 0% fee; the block reward is paid in the coinbase to the miner's own address, with TLS stratum and a minimum-difficulty-1 port for CPU and NerdMiner-class miners.
 - **[SoloPool.org](https://solopool.org/)** — Solo stratum endpoints for 40+ altcoins with global low-latency nodes.
 
 ### PPLNS, PPS & Multi-Coin Pools
