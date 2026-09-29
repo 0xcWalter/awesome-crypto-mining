@@ -295,6 +295,14 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[BackPoW Verus](https://backpow.com/Verus)** — VerusHash CPU profitability and breakeven power rate.
 - **[Hashrate.no VRSC](https://www.hashrate.no/coins/VRSC)** — CPU benchmark reference for VerusHash tuning.
 
+#### Zecnero (ZMR)
+
+- **[zecnerod](https://gitlab.com/zecnero/zecnerod)** — Rust full node forked from Zebra, running a salted RandomX variant (rx/zecnero) with Zcash's Sapling and Orchard shielded pools ([project site](https://zecnero.org/)).
+- **[Zecnero Explorer](https://explorer.zecnero.org/)** — Official block explorer with a public API.
+- **[Zecnero Wallet](https://zecnero.org/wallets)** — CLI and Windows desktop wallet with transparent and Sapling support.
+- **[xmrig-zecnero](https://gitlab.com/zecnero/xmrig-zecnero)** — XMRig build for the rx/zecnero algorithm; the [mining guide](https://zecnero.org/mine) covers a one-command pool or solo setup.
+- **[Zecnero Pool](https://pool.zecnero.org/)** — Official PPLNS pool with TLS stratum and a public stats API.
+
 ### kHeavyHash & BlockDAG
 
 #### Kaspa (KAS)
