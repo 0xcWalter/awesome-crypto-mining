@@ -180,6 +180,7 @@ Run your own infrastructure instead of trusting someone else's.
 - **[BTC PoW Lab](https://btcpowlab-pool.com/)** — Bitcoin Hybrid Solo pool with public Stratum V1, address based access, public status and proof pages, and a transparent 85% finder, 10% eligible community and 5% operator reward split.
 - **[CKPool Solo](https://solo.ckpool.org/)** — The original zero-dependency Bitcoin solo pool; 2% fee, paid only on a found block.
 - **[OCEAN](https://ocean.xyz/)** — Non-custodial Bitcoin pool paying directly from the coinbase, with [DATUM](https://www.ocean.xyz/docs/datum) for miner-side template construction.
+- **[SoloFury](https://solofury.com/)** — Non-custodial Bitcoin solo pool that also mines BCH, BC2, BCH2, XEC and DigiByte SHA-256: 1% fee, block reward paid in the coinbase to the miner's own address, no registration, Stratum V1 with TLS on every port, Stratum V2 on BTC and BCH, nine regions and a public stats API.
 - **[SoloLuck](https://sololuck.io/)** — Bitcoin solo pool on ckpool with a 0% fee; the block reward is paid in the coinbase to the miner's own address, with TLS stratum and a minimum-difficulty-1 port for CPU and NerdMiner-class miners.
 - **[SoloPool.org](https://solopool.org/)** — Solo stratum endpoints for 40+ altcoins with global low-latency nodes.
 
@@ -216,6 +217,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[CKPool Solo](https://solo.ckpool.org/)** — Solo stratum for small machines; the canonical home of the lottery-block story.
 - **[OCEAN](https://ocean.xyz/)** — Non-custodial pool with miner-built templates via DATUM.
 - **[Braiins Pool](https://braiins.com/pool)** — Established pool with Stratum V2 support.
+- **[SoloFury BTC](https://solofury.com/btc/)** — Bitcoin solo pool page with live stats, found blocks and per-region stratum endpoints; TLS on every port and Stratum V2 (ports 3333/3343) with a published authority key.
 - **[BackPoW Bitcoin](https://backpow.com/Bitcoin)** — Cost of Production per machine, breakeven electricity rate, and Poisson solo odds for any hashrate you point at the network.
 - **[Timechain Calendar](https://timechaincalendar.com/)** — Halving countdown, epoch progress and block height reference.
 - **[MiningPoolStats BTC](https://miningpoolstats.stream/bitcoin)** — Pool hashrate distribution and difficulty history.
@@ -225,6 +227,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[Bitcoin Cash Node](https://bitcoincashnode.org/)** — Reference full node implementation.
 - **[Blockchair BCH](https://blockchair.com/bitcoin-cash)** — Explorer with full-text search and downloadable datasets.
 - **[F2Pool BCH](https://www.f2pool.com/coin/bitcoin-cash)** — Major SHA-256 pool with a dedicated BCH endpoint and payout stats.
+- **[SoloFury BCH](https://solofury.com/bch/)** — Bitcoin Cash solo pool page with live stats, found blocks and per-region stratum endpoints, including TLS and Stratum V2 (ports 7333/7343).
 - **[MiningPoolStats BCH](https://miningpoolstats.stream/bitcoincash)** — Pool distribution and network hashrate.
 - **[BackPoW Bitcoin Cash](https://backpow.com/BitcoinCash)** — SHA-256 profitability and CoP against the same hardware set used for BTC, which is what makes the two chains directly comparable.
 - **[Hashrate.no BCH](https://www.hashrate.no/coins/BCH)** — Revenue per machine at current difficulty.
