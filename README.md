@@ -65,7 +65,6 @@ New to mining, or evaluating whether a machine pays for itself before you buy it
 - **[BackPoW](https://backpow.com)** — Cost of Production and solo block odds oracle, with per-coin pages, hardware-vs-coin combinations and an unauthenticated JSON API for scripted analysis.
 - **[BitInfoCharts](https://bitinfocharts.com/)** — Long-range difficulty, hashrate, fee and address-distribution charts for major PoW chains.
 - **[CoinWarz](https://www.coinwarz.com/calculators)** — Classic difficulty and profitability calculators with historical difficulty series per coin.
-- **[Diff.cat](https://diff.cat/)** — Minimal Bitcoin difficulty adjustment tracker with projected change and time to retarget.
 - **[Hashrate.no](https://hashrate.no/)** — GPU and CPU benchmark database with tuned overclock profiles, power draw and per-coin revenue per card.
 - **[Hashrate Index](https://hashrateindex.com/)** — Luxor's hashprice index, rig price index and mining market research for industrial-scale operators.
 - **[Mempool.space](https://mempool.space/)** — Bitcoin mempool, fee market and block visualiser, including a mining dashboard with pool share and reward breakdowns.
@@ -110,7 +109,7 @@ New to mining, or evaluating whether a machine pays for itself before you buy it
 
 - **AMD Ryzen & Threadripper** — Large L3 cache parts (7950X, 9950X, Threadripper PRO) are the reference platform for RandomX and VerusHash.
 - **AMD EPYC** — Multi-socket server CPUs with high memory bandwidth and L3 per core, used for dense RandomX deployments.
-- **Intel Xeon & Core Ultra** — Competitive on AVX-512-friendly workloads and widely available second-hand for low-cost CPU mining.
+- **Intel Xeon & Core Ultra** — Xeon parts with AVX-512 are competitive on AVX-512-friendly workloads (Core Ultra consumer chips lack AVX-512), and both are widely available second-hand for low-cost CPU mining.
 
 ---
 
@@ -118,7 +117,7 @@ New to mining, or evaluating whether a machine pays for itself before you buy it
 
 ### CPU Miners
 
-- **[cpuminer-multi / pooler's cpuminer](https://github.com/pooler/cpuminer)** — Minimal, auditable Scrypt and SHA-256 CPU reference miner.
+- **[cpuminer (pooler)](https://github.com/pooler/cpuminer)** — Minimal, auditable Scrypt and SHA-256 CPU reference miner.
 - **[cpuminer-opt](https://github.com/JayDDee/cpuminer-opt)** — Optimised multi-algorithm CPU miner with hand-tuned SIMD paths for dozens of hash functions.
 - **[SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi)** — CPU and AMD/NVIDIA/Intel GPU miner covering one of the widest algorithm ranges available ([releases](https://github.com/doktor83/SRBMiner-Multi/releases)).
 - **[XMRig](https://github.com/xmrig/xmrig)** — The reference RandomX miner, with MSR mods, huge pages automation and [documentation](https://xmrig.com/docs/miner) that doubles as a tuning guide.
@@ -132,7 +131,7 @@ New to mining, or evaluating whether a machine pays for itself before you buy it
 - **[kawpowminer](https://github.com/RavenCommunity/kawpowminer)** — Open-source reference KawPow miner maintained by the Ravencoin community.
 - **[lolMiner](https://github.com/Lolliedieb/lolMiner-releases)** — Autolykos2, Equihash, Blake3, FishHash and dual-mining workhorse ([releases](https://github.com/Lolliedieb/lolMiner-releases/releases)).
 - **[nanominer](https://github.com/nanopool/nanominer)** — Multi-algorithm miner with a straightforward configuration format and watchdog.
-- **[OneZeroMiner](https://github.com/OneZeroMiner/onezerominer)** — Specialised client for Dynex, Salvium and newer compute-oriented algorithms.
+- **[OneZeroMiner](https://github.com/OneZeroMiner/onezerominer)** — Specialised NVIDIA client for DynexSolve, XelisHashV3 and newer compute-oriented algorithms.
 - **[Rigel](https://github.com/rigelminer/rigel)** — Fast NVIDIA miner focused on dual/triple mining across Nexa, Alephium, Iron Fish, KawPow and Karlsen ([releases](https://github.com/rigelminer/rigel/releases)).
 - **[T-Rex](https://github.com/trexminer/T-Rex)** — NVIDIA miner with a strong KawPow/Octopus track record and an active release feed.
 - **[TeamRedMiner](https://github.com/todxx/teamredminer)** — AMD-only miner with hand-optimised kernels for KawPow, Autolykos2 and FiroPow.
@@ -142,7 +141,6 @@ New to mining, or evaluating whether a machine pays for itself before you buy it
 
 - **[Awesome Miner](https://awesomeminer.com/)** — Windows-based management for large mixed fleets of GPU rigs and ASICs, with rules-based profit switching.
 - **[NiceHash Miner](https://github.com/nicehash/NiceHashMiner)** — Open-source benchmarking and switching front-end for the NiceHash hashrate marketplace.
-- **[Sriracha](https://github.com/ccuetoh/sriracha)** — Lightweight open-source tooling for scripted miner orchestration.
 - **[UG-Miner](https://github.com/UselessGuru/UG-Miner)** — Open-source PowerShell profit switcher supporting many miners, pools and algorithms.
 
 ---
@@ -153,9 +151,7 @@ New to mining, or evaluating whether a machine pays for itself before you buy it
 - **[Braiins OS](https://braiins.com/os)** — Open-source-derived autotuning firmware for Antminer hardware with per-chip frequency and voltage scaling, and native Stratum V2 support.
 - **[HiveOS](https://hiveon.com/os/)** — Linux mining OS with a hosted dashboard, overclock profiles and fleet telemetry.
 - **[LuxOS](https://luxor.tech/mining/firmware)** — Commercial firmware for Antminer fleets focused on efficiency curves and reliability at scale.
-- **[minerstat msOS](https://minerstat.com/software/mining-os)** — Linux distribution for farm management with remote diagnostics and profit switching.
-- **[RaveOS](https://raveos.com/)** — Lightweight headless OS supporting mixed AMD/NVIDIA rigs and ASIC management.
-- **[VNish](https://vnish.net/)** — Third-party firmware for Antminer and Whatsminer units with autotuning and efficiency presets.
+- **[VNish](https://vnish.com/)** — Third-party firmware for Antminer and Whatsminer units with autotuning and efficiency presets.
 
 ---
 
@@ -165,7 +161,6 @@ Run your own infrastructure instead of trusting someone else's.
 
 - **[ckpool](https://github.com/ckolivas/ckpool)** — Con Kolivas's minimal C pool server, the codebase behind solo.ckpool.org.
 - **[DATUM Gateway](https://github.com/OCEAN-xyz/datum_gateway)** — Lets a miner build and choose its own block templates while pooling variance through OCEAN.
-- **[Miningcore](https://github.com/oliverw/miningcore)** — Multi-coin pool engine in .NET supporting most major PoW families.
 - **[P2Pool](https://github.com/SChernykh/p2pool)** — Decentralised, chain-based Monero pool: 0% fee, no operator, payouts direct in the coinbase.
 - **[public-pool](https://github.com/benjamin-wilson/public-pool)** — Open-source solo Bitcoin stratum server popular with Bitaxe and home-miner setups.
 - **[Stratum V2 Reference Implementation](https://github.com/stratum-mining/stratum)** — Rust implementation of the encrypted, template-negotiating successor to Stratum V1 ([specification](https://github.com/stratum-mining/sv2-spec), [protocol site](https://stratumprotocol.org/)).
@@ -253,10 +248,10 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[MiningPoolStats DOGE](https://miningpoolstats.stream/dogecoin)** — Pool share and network difficulty.
 - **[BackPoW Dogecoin](https://backpow.com/Dogecoin)** — Auxiliary-PoW aware revenue model, including the merged-mining reward stacked on Litecoin hashrate.
 
-#### Pepecoin (PEPE)
+#### Pepecoin (PEP)
 
 - **[Pepecoin Core](https://github.com/pepecoinppc/pepecoin)** — Dogecoin-derived node and wallet ([project site](https://pepecoin.org/)).
-- **[MiningPoolStats PEPE](https://miningpoolstats.stream/pepecoin)** — Active pools and network hashrate.
+- **[MiningPoolStats PEP](https://miningpoolstats.stream/pepecoin)** — Active pools and network hashrate.
 - **[BackPoW Pepecoin](https://backpow.com/Pepecoin)** — Scrypt solo odds and CoP for the small-cap end of the Scrypt market.
 - **[SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi)** — Scrypt support for GPU and CPU miners.
 
@@ -301,7 +296,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 
 #### Zecnero (ZMR)
 
-- **[zecnerod](https://gitlab.com/zecnero/zecnerod)** — Rust full node forked from Zebra, running a salted RandomX variant (rx/zecnero) with Zcash's Sapling and Orchard shielded pools ([project site](https://zecnero.org/)).
+- **[zecnerod](https://gitlab.com/zecnero/zecnerod)** — Rust full node forked from Zebra, running a salted RandomX variant (rx/zecnero), currently on testnet, with Zcash's Sapling and Orchard shielded pools ([project site](https://zecnero.org/)).
 - **[Zecnero Explorer](https://explorer.zecnero.org/)** — Official block explorer with a public API.
 - **[Zecnero Wallet](https://zecnero.org/wallets)** — CLI and Windows desktop wallet with transparent and Sapling support.
 - **[xmrig-zecnero](https://gitlab.com/zecnero/xmrig-zecnero)** — XMRig build for the rx/zecnero algorithm; the [mining guide](https://zecnero.org/mine) covers a one-command pool or solo setup.
@@ -317,7 +312,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[Kaspium](https://kaspium.io/)** — Non-custodial mobile and desktop wallet.
 - **[Rigel](https://github.com/rigelminer/rigel)** and **[lolMiner](https://github.com/Lolliedieb/lolMiner-releases)** — GPU miners for kHeavyHash, still relevant for testing even though ASICs dominate.
 - **[Kaspa HeroMiners](https://kaspa.herominers.com/)**, **[2Miners KAS](https://2miners.com/kas-mining-pool)** (with a [solo tier](https://2miners.com/solo-kas-mining-pool)), **[Kaspa-Pool](https://kaspa-pool.org/)**, **[ACC-Pool](https://acc-pool.pw/)**, **[Katpool](https://katpool.com/)** — Active pool options across fee models.
-- **[BackPoW Kaspa](https://backpow.com/Kaspa)** — kHeavyHash CoP per ASIC model and solo block odds, which on a one-second block time is one of the few places solo mining is statistically meaningful for small machines.
+- **[BackPoW Kaspa](https://backpow.com/Kaspa)** — kHeavyHash CoP per ASIC model and solo block odds, which at 10 blocks per second (100 ms block time) is one of the few places solo mining is statistically meaningful for small machines.
 - **[MiningPoolStats KAS](https://miningpoolstats.stream/kaspa)** — Pool distribution and difficulty.
 
 #### Karlsen (KLS)
@@ -326,7 +321,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[Karlsen Explorer](https://explorer.karlsencoin.org/)** — Official explorer.
 - **[Rigel](https://github.com/rigelminer/rigel)** — Primary GPU miner for KarlsenHashV2.
 - **[WoolyPooly KLS](https://woolypooly.com/en/coin/kls)** — Main public pool.
-- **[Hashrate.no KLS](https://www.hashrate.no/coins/KLS)** — Per-GPU measured hashrate, important because the 4 GB DAG excludes older cards.
+- **[Hashrate.no KLS](https://www.hashrate.no/coins/KLS)** — Per-GPU measured hashrate, important because the large FishHash DAG excludes low-memory cards.
 - **[BackPoW Karlsen](https://backpow.com/Karlsen)** — GPU profitability and CoP for an explicitly ASIC-resistant DAG chain.
 - **[MiningPoolStats KLS](https://miningpoolstats.stream/karlsen)** — Pool listing and difficulty.
 
@@ -337,15 +332,6 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi)** — Hoohash support for AMD and NVIDIA.
 - **[MiningPoolStats HTN](https://miningpoolstats.stream/hoosat)** — Active pools and network hashrate.
 - **[BackPoW Hoosat](https://backpow.com/Hoosat)** — Hoohash GPU economics and difficulty tracking.
-
-#### Nexa (NEXA)
-
-- **[Nexa](https://gitlab.com/nexa/nexa)** — Official node and wallet source ([project site](https://nexa.org/)).
-- **[Nexa Explorer](https://explorer.nexa.org/)** — Official explorer.
-- **[Rigel](https://github.com/rigelminer/rigel)** — NexaPow GPU miner, commonly run in dual-mining configurations.
-- **[2Miners NEXA](https://2miners.com/nexa-mining-pool)** and **[Kryptex Pool NEXA](https://pool.kryptex.com/nexa)** — Public pools.
-- **[BackPoW Nexa](https://backpow.com/Nexa)** — Per-GPU revenue and CoP for a high-emission chain where power price dominates the outcome.
-- **[MiningPoolStats NEXA](https://miningpoolstats.stream/nexa)** — Pool and hashrate data.
 
 ### KawPow Family
 
@@ -381,7 +367,6 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[Clore.ai](https://clore.ai/)** — GPU rental marketplace whose native chain is mined with KawPow; rental income is the reason the coin's mining economics differ from its peers.
 - **[FlockPool CLORE](https://flockpool.com/coins/clore)** and **[Kryptex Pool](https://pool.kryptex.com/clore)** — Public pools.
 - **[Hashrate.no CLORE](https://www.hashrate.no/coins/CLORE)** — Per-GPU revenue figures.
-- **[MiningPoolStats CLORE](https://miningpoolstats.stream/clore)** — Pool distribution and hashrate.
 
 #### Neurai (XNA)
 
@@ -390,13 +375,6 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[MiningPoolStats XNA](https://miningpoolstats.stream/neurai)** — Pools and difficulty.
 - **[BackPoW Neurai](https://backpow.com/Neurai)** — KawPow CoP for a low-difficulty chain where solo mining is still plausible.
 - **[Hashrate.no XNA](https://www.hashrate.no/coins/XNA)** — Per-card benchmarks.
-
-#### Telestai (TLS)
-
-- **[Telestai](https://github.com/Telestai-Project/telestai)** — Node and wallet source ([project site](https://www.telestai.io/)).
-- **[Telestai Explorer](https://explorer.telestai.io/)** — Official explorer.
-- **[MiningPoolStats TLS](https://miningpoolstats.stream/telestai)** — Pool listing.
-- **[BackPoW Telestai](https://backpow.com/Telestai)** — Mining calculator and network metrics.
 
 ### Autolykos, FishHash & Modern GPU Algorithms
 
@@ -419,7 +397,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[TeamRedMiner](https://github.com/todxx/teamredminer)** and **[T-Rex](https://github.com/trexminer/T-Rex)** — FiroPoW miners.
 - **[WoolyPooly FIRO](https://woolypooly.com/en/coin/firo)** — Public pool.
 - **[MiningPoolStats FIRO](https://miningpoolstats.stream/firo)** — Pool and hashrate data.
-- **[BackPoW Firo](https://backpow.com/Firo)** — FiroPoW GPU profitability, with the 50/50 masternode split reflected in the miner's share of emission.
+- **[BackPoW Firo](https://backpow.com/Firo)** — FiroPoW GPU profitability, with the block reward split (25% miners, 50% masternodes, 25% development and community funds) reflected in the miner's share of emission.
 
 #### Alephium (ALPH)
 
@@ -427,16 +405,15 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[Alephium Explorer](https://explorer.alephium.org/)** — Sharded explorer with hashrate distribution per chain.
 - **[Alephium GPU Miner](https://github.com/alephium/gpu-miner)** — Official Blake3 GPU miner.
 - **[Alephium HeroMiners](https://alephium.herominers.com/)** and **[K1Pool ALPH](https://k1pool.com/pool/alph)** — Public pools.
-- **[BackPoW Alephium](https://backpow.com/Alephium)** — Blake3 economics including the Proof-of-Less-Work adjustment that burns part of the reward as hashrate rises.
+- **[BackPoW Alephium](https://backpow.com/Alephium)** — Blake3 economics under Alephium's hashrate- and time-bounded emission; the Proof-of-Less-Work coin burn is designed to activate only above 1 EH/s network hashrate.
 - **[MiningPoolStats ALPH](https://miningpoolstats.stream/alephium)** — Pools and difficulty.
 
 #### Xelis (XEL)
 
 - **[Xelis Blockchain](https://github.com/xelis-project/xelis-blockchain)** — Official Rust node, wallet and miner ([releases](https://github.com/xelis-project/xelis-blockchain/releases), [project site](https://xelis.io/)).
 - **[Xelis Explorer](https://explorer.xelis.io/)** — BlockDAG explorer and emission tracker.
-- **[Xelis Stats](https://stats.xelis.io/)** — Network statistics dashboard.
-- **[xelis-hash](https://github.com/xelis-project/xelis-hash)** — Reference implementation of XelisHashV2, useful if you are benchmarking or porting.
-- **[SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi)** — CPU and GPU miner for XelisHashV2.
+- **[xelis-hash](https://github.com/xelis-project/xelis-hash)** — Reference implementation of XelisHash (currently XelisHashV3), useful if you are benchmarking or porting.
+- **[SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi)** — CPU and GPU miner for XelisHashV3.
 - **[Xelis HeroMiners](https://xelis.herominers.com/)** — Public pool with solo ports.
 - **[BackPoW Xelis](https://backpow.com/Xelis)** — CPU/GPU profitability and CoP for a chain still mineable on commodity hardware.
 - **[MiningPoolStats XEL](https://miningpoolstats.stream/xelis)** — Pool distribution.
@@ -485,20 +462,12 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[BackPoW Conflux](https://backpow.com/Conflux)** — Octopus GPU profitability and CoP.
 - **[MiningPoolStats CFX](https://miningpoolstats.stream/conflux)** — Pools and difficulty.
 
-#### Nervos CKB (CKB)
-
-- **[CKB](https://github.com/nervosnetwork/ckb)** — Official Rust node for the Eaglesong chain ([project site](https://www.nervos.org/)).
-- **[CKB Explorer](https://explorer.nervos.org/)** — Official explorer with epoch and mining statistics.
-- **[2Miners CKB](https://2miners.com/ckb-mining-pool)** and **[F2Pool CKB](https://www.f2pool.com/coin/nervos)** — Public pools.
-- **[BackPoW Nervos](https://backpow.com/Nervos)** — Eaglesong ASIC profitability and CoP.
-- **[MiningPoolStats CKB](https://miningpoolstats.stream/nervos)** — Pool distribution.
-
 ### Equihash & zk-Focused Chains
 
 #### Zcash (ZEC)
 
-- **[zcashd](https://github.com/zcash/zcash)** — Reference node ([project site](https://z.cash/), [operator documentation](https://zcash.readthedocs.io/en/latest/)).
-- **[Zebra](https://github.com/ZcashFoundation/zebra)** — Independent Rust node implementation from the Zcash Foundation.
+- **[Zebra](https://github.com/ZcashFoundation/zebra)** — Rust full node from the Zcash Foundation, the successor to the now-retired zcashd ([project site](https://z.cash/)).
+- **[Zallet](https://github.com/zcash/zallet)** — Full-node RPC wallet that replaces the deprecated zcashd embedded wallet.
 - **[Zcash Explorer](https://mainnet.zcashexplorer.app/)** — Block explorer with shielded-pool statistics.
 - **[F2Pool ZEC](https://www.f2pool.com/coin/zcash)** — Major Equihash pool.
 - **[BackPoW Zcash](https://backpow.com/Zcash)** — Equihash ASIC CoP and breakeven power rate.
@@ -535,7 +504,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[dcrd](https://github.com/decred/dcrd)** — Reference Go node for the hybrid PoW/PoS chain ([project site](https://decred.org/)).
 - **[Decrediton](https://github.com/decred/decrediton)** — Official GUI wallet with integrated ticket purchasing.
 - **[dcrdata](https://dcrdata.decred.org/)** — Official block explorer with ticket pool, staking and governance data.
-- **[BackPoW Decred](https://backpow.com/Decred)** — Blake3 ASIC economics with the 10% PoW share of block reward applied, which is the number most generic calculators get wrong.
+- **[BackPoW Decred](https://backpow.com/Decred)** — Blake3 ASIC economics with the 1% PoW share of block reward applied (89% goes to PoS voters, 10% to the treasury), which is the number most generic calculators get wrong.
 - **[MiningPoolStats DCR](https://miningpoolstats.stream/decred)** — Pools and hashrate.
 
 #### Vertcoin (VTC)
@@ -585,6 +554,30 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[Siascan](https://siascan.com/)** — Official explorer with host and contract data.
 - **[BackPoW Sia](https://backpow.com/Sia)** — Blake2b ASIC profitability and breakeven power price.
 - **[MiningPoolStats SC](https://miningpoolstats.stream/siacoin)** — Pool listing.
+
+#### Nexa (NEXA)
+
+- **[Nexa](https://gitlab.com/nexa/nexa)** — Official node and wallet source for the NexaPow chain ([project site](https://nexa.org/)).
+- **[Nexa Explorer](https://explorer.nexa.org/)** — Official explorer.
+- **[Rigel](https://github.com/rigelminer/rigel)** — NexaPow GPU miner, commonly run in dual-mining configurations.
+- **[2Miners NEXA](https://2miners.com/nexa-mining-pool)** and **[Kryptex Pool NEXA](https://pool.kryptex.com/nexa)** — Public pools.
+- **[BackPoW Nexa](https://backpow.com/Nexa)** — Per-GPU revenue and CoP for a high-emission chain where power price dominates the outcome.
+- **[MiningPoolStats NEXA](https://miningpoolstats.stream/nexa)** — Pool and hashrate data.
+
+#### Nervos CKB (CKB)
+
+- **[CKB](https://github.com/nervosnetwork/ckb)** — Official Rust node for the Eaglesong chain ([project site](https://www.nervos.org/)).
+- **[CKB Explorer](https://explorer.nervos.org/)** — Official explorer with epoch and mining statistics.
+- **[2Miners CKB](https://2miners.com/ckb-mining-pool)** and **[F2Pool CKB](https://www.f2pool.com/coin/nervos)** — Public pools.
+- **[BackPoW Nervos](https://backpow.com/Nervos)** — Eaglesong ASIC profitability and CoP.
+- **[MiningPoolStats CKB](https://miningpoolstats.stream/nervos)** — Pool distribution.
+
+#### Telestai (TLS)
+
+- **[Telestai](https://github.com/Telestai-Project/telestai)** — Node and wallet source for the Meraki-algorithm chain ([project site](https://www.telestai.io/)).
+- **[Telestai Explorer](https://explorer.telestai.io/)** — Official explorer.
+- **[MiningPoolStats TLS](https://miningpoolstats.stream/telestai)** — Pool listing.
+- **[BackPoW Telestai](https://backpow.com/Telestai)** — Meraki GPU mining calculator and network metrics.
 
 ---
 
