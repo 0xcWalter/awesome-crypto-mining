@@ -183,6 +183,7 @@ Run your own infrastructure instead of trusting someone else's.
 - **[SoloFury](https://solofury.com/)** — Non-custodial Bitcoin solo pool that also mines BCH, BC2, BCH2, XEC and DigiByte SHA-256: 1% fee, block reward paid in the coinbase to the miner's own address, no registration, Stratum V1 with TLS on every port, Stratum V2 on BTC and BCH, nine regions and a public stats API.
 - **[SoloLuck](https://sololuck.io/)** — Bitcoin solo pool on ckpool with a 0% fee; the block reward is paid in the coinbase to the miner's own address, with TLS stratum and a minimum-difficulty-1 port for CPU and NerdMiner-class miners.
 - **[SoloPool.org](https://solopool.org/)** — Solo stratum endpoints for 40+ altcoins with global low-latency nodes.
+- **[VEIN Pool](https://veinpool.fr/)** — EU multi-coin pool on its own full nodes: SOLO and PPLNS ports on 20+ PoW coins (Ravencoin, Ergo, Firo, Zano, Xelis, Warthog, Dero, Beam…), non-custodial SOLO direct (block paid by the chain to the miner) on Warthog and Dero, 1% fee.
 
 ### PPLNS, PPS & Multi-Coin Pools
 
