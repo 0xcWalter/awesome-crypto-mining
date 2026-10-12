@@ -161,6 +161,7 @@ Run your own infrastructure instead of trusting someone else's.
 
 - **[ckpool](https://github.com/ckolivas/ckpool)** — Con Kolivas's minimal C pool server, the codebase behind solo.ckpool.org.
 - **[DATUM Gateway](https://github.com/OCEAN-xyz/datum_gateway)** — Lets a miner build and choose its own block templates while pooling variance through OCEAN.
+- **[miningcore-live-rigs](https://github.com/veinpool/miningcore-live-rigs)** — Add-on for Miningcore pools that streams realtime rig connect/disconnect events (instead of waiting for the hashrate window), so dashboards and alerts react in seconds.
 - **[P2Pool](https://github.com/SChernykh/p2pool)** — Decentralised, chain-based Monero pool: 0% fee, no operator, payouts direct in the coinbase.
 - **[public-pool](https://github.com/benjamin-wilson/public-pool)** — Open-source solo Bitcoin stratum server popular with Bitaxe and home-miner setups.
 - **[Stratum V2 Reference Implementation](https://github.com/stratum-mining/stratum)** — Rust implementation of the encrypted, template-negotiating successor to Stratum V1 ([specification](https://github.com/stratum-mining/sv2-spec), [protocol site](https://stratumprotocol.org/)).
@@ -360,6 +361,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[Neoxa Explorer](https://explorer.neoxa.net/)** — Transaction and asset explorer.
 - **[Hashrate.no NEOX](https://www.hashrate.no/coins/NEOX)** — Measured per-GPU performance.
 - **[BackPoW Neoxa](https://backpow.com/Neoxa)** — KawPow economics including the gaming-reward emission split.
+- **[VEIN Pool NEOX](https://veinpool.fr/coin/neox)** — EU pool with PPLNS and solo ports on its own Neoxa node.
 - **[MiningPoolStats NEOX](https://miningpoolstats.stream/neoxa)** — Active pools.
 
 #### Clore.ai (CLORE)
@@ -372,6 +374,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 
 - **[Neurai](https://neurai.org/)** — Project site with node and wallet downloads.
 - **[Neurai Explorer](https://explorer.neurai.org/)** — Official explorer.
+- **[VEIN Pool XNA](https://veinpool.fr/coin/xna)** — EU pool with PPLNS and solo ports on its own Neurai node.
 - **[MiningPoolStats XNA](https://miningpoolstats.stream/neurai)** — Pools and difficulty.
 - **[BackPoW Neurai](https://backpow.com/Neurai)** — KawPow CoP for a low-difficulty chain where solo mining is still plausible.
 - **[Hashrate.no XNA](https://www.hashrate.no/coins/XNA)** — Per-card benchmarks.
@@ -415,6 +418,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[xelis-hash](https://github.com/xelis-project/xelis-hash)** — Reference implementation of XelisHash (currently XelisHashV3), useful if you are benchmarking or porting.
 - **[SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi)** — CPU and GPU miner for XelisHashV3.
 - **[Xelis HeroMiners](https://xelis.herominers.com/)** — Public pool with solo ports.
+- **[VEIN Pool XEL](https://veinpool.fr/coin/xel)** — EU pool with PPLNS and solo ports for XelisHash v3 (CPU and GPU).
 - **[BackPoW Xelis](https://backpow.com/Xelis)** — CPU/GPU profitability and CoP for a chain still mineable on commodity hardware.
 - **[MiningPoolStats XEL](https://miningpoolstats.stream/xelis)** — Pool distribution.
 
@@ -431,6 +435,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 
 - **[Warthog Core](https://github.com/warthog-network/core)** — Node implementing Proof of Balanced Work, which mixes CPU and GPU components ([project site](https://warthog.network/)).
 - **[Warthog HeroMiners](https://warthog.herominers.com/)** — Public pool.
+- **[VEIN Pool WART](https://veinpool.fr/coin/wart)** — Non-custodial SOLO direct pool: the node builds the template for the miner's own address, block paid by the chain, 0% fee.
 - **[MiningPoolStats WART](https://miningpoolstats.stream/warthog)** — Pool listing and difficulty.
 - **[BackPoW Warthog](https://backpow.com/Warthog)** — Profitability model for a hybrid CPU/GPU algorithm, where the hardware mix decides the outcome.
 - **[Hashrate.no WART](https://www.hashrate.no/coins/WART)** — Measured hardware performance.
