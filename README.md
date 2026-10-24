@@ -194,6 +194,7 @@ Run your own infrastructure instead of trusting someone else's.
 - **[Luxor](https://luxor.tech/mining/mining-pool)** — Institutional-grade pool and hashrate marketplace with detailed payout reporting.
 - **[Mining Dutch](https://www.mining-dutch.nl/)** — Long-running European multi-algorithm pool.
 - **[Nanopool](https://nanopool.org/)** — Established multi-coin pool with a public API for worker monitoring.
+- **[PotPool](https://potpool.party/)** — 0% fee DigiByte (SHA-256d + Scrypt) PPLNS pool for home miners. Block rewards are swapped to USDC on Base and spent on Megapot lottery tickets; winnings are claimed on-chain. Stratum V1/V2. Entertainment lottery, not income.
 - **[Prohashing](https://prohashing.com/)** — Multi-algorithm pool with payouts in a chosen coin and transparent accounting.
 - **[ViaBTC](https://www.viabtc.com/)** — PPS+, PPLNS and merged mining across major SHA-256 and Scrypt chains.
 - **[WoolyPooly](https://woolypooly.com/)** — Mid-size pool with strong coverage of newer GPU coins and a clean stats interface.
