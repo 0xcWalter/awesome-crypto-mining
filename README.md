@@ -65,6 +65,7 @@ New to mining, or evaluating whether a machine pays for itself before you buy it
 - **[BackPoW](https://backpow.com)** — Cost of Production and solo block odds oracle, with per-coin pages, hardware-vs-coin combinations and an unauthenticated JSON API for scripted analysis.
 - **[BitInfoCharts](https://bitinfocharts.com/)** — Long-range difficulty, hashrate, fee and address-distribution charts for major PoW chains.
 - **[CoinWarz](https://www.coinwarz.com/calculators)** — Classic difficulty and profitability calculators with historical difficulty series per coin.
+- **[DGB Block Calculator](https://potpool.party/blog/dgb-block-calculator)** — DigiByte-specific solo block odds and expected time to a block for Scrypt and SHA-256d, from your hashrate and live network difficulty.
 - **[Hashrate.no](https://hashrate.no/)** — GPU and CPU benchmark database with tuned overclock profiles, power draw and per-coin revenue per card.
 - **[Hashrate Index](https://hashrateindex.com/)** — Luxor's hashprice index, rig price index and mining market research for industrial-scale operators.
 - **[Mempool.space](https://mempool.space/)** — Bitcoin mempool, fee market and block visualiser, including a mining dashboard with pool share and reward breakdowns.
