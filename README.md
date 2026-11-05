@@ -271,6 +271,7 @@ Chains are grouped by the algorithm they actually use, because that is what dete
 - **[Monero HeroMiners](https://monero.herominers.com/)**, **[SupportXMR](https://www.supportxmr.com/)**, **[HashVault](https://hashvault.pro/)** — Established centralised alternatives when P2Pool's minimum payout is impractical.
 - **[BackPoW Monero](https://backpow.com/Monero)** — RandomX CoP per CPU model and breakeven electricity price, the number that decides whether home CPU mining clears its own power bill.
 - **[MiningPoolStats XMR](https://miningpoolstats.stream/monero)** — Pool distribution and difficulty.
+- **[XMRList Mining Calculator](https://xmrlist.com/tools/mining-calculator)** — Monero mining profitability on live difficulty and XMR price, with electricity cost, break-even and live P2Pool stats.
 
 #### Zephyr Protocol (ZEPH)
 
