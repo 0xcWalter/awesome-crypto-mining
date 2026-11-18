@@ -46,6 +46,7 @@ Before submitting a Pull Request, please ensure your contribution adheres to the
    git push origin add-my-mining-tool
    ```
 7. Open a **Pull Request** explaining what the tool is and why it belongs on the list.
+8. **Optional — star the repository.** Stars are one of the signals GitHub uses to rank lists like this one in search and topic pages, so each star puts every listed project, including yours, in front of more miners. It is not required and is not considered during review.
 
 ---
 
