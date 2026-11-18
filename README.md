@@ -140,6 +140,7 @@ New to mining, or evaluating whether a machine pays for itself before you buy it
 ### Miner Managers & Profit Switchers
 
 - **[Awesome Miner](https://awesomeminer.com/)** — Windows-based management for large mixed fleets of GPU rigs and ASICs, with rules-based profit switching.
+- **[NexusSwitch](https://github.com/MrM002/NexusSwitch)** — Open-source Python profit switcher for XMRig, lolMiner, Rigel, SRBMiner-Multi and T-Rex using key-less WhatToMine/CoinGecko data, with anti-spike filtering, a live terminal dashboard and a self-hosted Telegram bot.
 - **[NiceHash Miner](https://github.com/nicehash/NiceHashMiner)** — Open-source benchmarking and switching front-end for the NiceHash hashrate marketplace.
 - **[UG-Miner](https://github.com/UselessGuru/UG-Miner)** — Open-source PowerShell profit switcher supporting many miners, pools and algorithms.
 - **[XMRig Proxy Dashboard](https://github.com/wjc2821296948/XMRig-Proxy-Dashboard)** — Lightweight, zero-backend web dashboard for real-time XMRig Proxy monitoring, with multi-proxy profiles and browser-local credentials.
