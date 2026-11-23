@@ -140,7 +140,7 @@ New to mining, or evaluating whether a machine pays for itself before you buy it
 ### Miner Managers & Profit Switchers
 
 - **[Awesome Miner](https://awesomeminer.com/)** — Windows-based management for large mixed fleets of GPU rigs and ASICs, with rules-based profit switching.
-- **[Easy Block Finder 4000 (EBF4000)](https://github.com/easyblockfinder/easy-block-finder-4000)** — Free, open-source Windows GUI for solo mining BTC/BCH (OpenCL GPU), XMR (CPU), and RVN/ERG (NVIDIA GPU), featuring idle-aware mining, temperature monitoring, and live statistics.
+- **[Easy Block Finder 4000 (EBF4000)](https://github.com/easyblockfinder/easy-block-finder-4000)** — Free, open-source Windows GUI for solo mining BTC/BCH (native OpenCL), XMR (managed XMRig) and RVN/ERG (managed Rigel, NVIDIA), with idle-aware throttling and a temperature guard.
 - **[NexusSwitch](https://github.com/MrM002/NexusSwitch)** — Open-source Python profit switcher for XMRig, lolMiner, Rigel, SRBMiner-Multi and T-Rex using key-less WhatToMine/CoinGecko data, with anti-spike filtering, a live terminal dashboard and a self-hosted Telegram bot.
 - **[NiceHash Miner](https://github.com/nicehash/NiceHashMiner)** — Open-source benchmarking and switching front-end for the NiceHash hashrate marketplace.
 - **[UG-Miner](https://github.com/UselessGuru/UG-Miner)** — Open-source PowerShell profit switcher supporting many miners, pools and algorithms.
